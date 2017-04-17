@@ -1,7 +1,7 @@
 # faas-node-ascii
 A [FaaS](http://get-faas.com) function to generate ascii art from an image url!
 
-Simply pipe your image URL into the container via stdin:
+You can execute the function like this:
 
 `curl http://localhost:8080/function/func_ascii -d "https://www.docker.com/sites/default/files/social/docker-facebook-share.png"`
 
