@@ -1,0 +1,16 @@
+{
+  "name": "faas-node-ascii",
+  "version": "1.0.0",
+  "description": "A FaaS function to generate an ascii representation of an image",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Finnian Anderson <finnian.io>",
+  "license": "MIT",
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "image-to-ascii": "^3.0.7"
+  }
+}
