@@ -8,6 +8,6 @@ getStdin().then(url => {
 	imageToAscii(url, {
 		size: { width: 800 }
 	}, (err, converted) => {
-		console.log(err || `Converted ${url} to ascii`)
+		console.log(err || converted)
 	})
 })
